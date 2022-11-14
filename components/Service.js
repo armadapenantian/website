@@ -23,7 +23,7 @@ const Service = () => {
         <div className="container mx-auto px-8">
           <div className="mb-20 max-w-md text-center mx-auto">
             <span className="text-green-600 font-bold">Service</span>
-            <h2 className="text-4xl lg:text-5xl font-bold font-heading">
+            <h2 className="text-3xl lg:text-5xl font-bold font-heading">
               What are you waiting for? Check us out today!
             </h2>
           </div>
@@ -44,7 +44,7 @@ const Service = () => {
                 ></path>
               </svg>
               <h3 className="text-2xl font-bold font-heading">
-                Lorem ipsum dolor sit amet consectutar
+                Fasilitas Lengkap
               </h3>
               <p className="text-gray-500 leading-loose">
                 Fusce quam tellus, placerat eu metus ut, viverra aliquet purus.
@@ -67,7 +67,7 @@ const Service = () => {
                 ></path>
               </svg>
               <h3 className="text-2xl font-bold font-heading">
-                Lorem ipsum dolor sit amet consectutar
+                Harga Terjangkau
               </h3>
               <p className="text-gray-500 leading-loose">
                 Fusce quam tellus, placerat eu metus ut, viverra aliquet purus.
@@ -90,7 +90,7 @@ const Service = () => {
                 ></path>
               </svg>
               <h3 className="text-2xl font-bold font-heading">
-                Lorem ipsum dolor sit amet consectutar
+                Profesional dan Berpengalaman
               </h3>
               <p className="text-gray-500 leading-loose">
                 Fusce quam tellus, placerat eu metus ut, viverra aliquet purus.

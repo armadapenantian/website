@@ -25,11 +25,11 @@ const Explore = () => {
             <polygon fill="currentColor" points="0 10 10 0 10 10"></polygon>
           </svg>
         </div>
-        <div className="py-20 bg-gray-50 radius-for-skewed">
+        <div className="py-20 bg-white radius-for-skewed">
           <div className="container mx-auto px-8">
             <div className="mb-8 md:mb-16 max-w-lg mx-auto text-center">
               <span className="text-green-600 font-bold">Explore</span>
-              <h2 className="mb-6 text-4xl lg:text-5xl font-bold font-heading">
+              <h2 className="mb-6 text-3xl lg:text-5xl font-bold font-heading">
                  We offer bus services for travel adventures
               </h2>
             </div>

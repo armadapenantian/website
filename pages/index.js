@@ -26,7 +26,6 @@ export default function Home() {
       <div>
         <Navbar />
         <Hero />
-        <Service />
         <Explore />
         <Destinations />
         <WhyUs />

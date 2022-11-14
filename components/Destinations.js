@@ -27,9 +27,11 @@ const Destinations = () => {
       <div className="py-20 bg-white radius-for-skewed">
         <div className="container mx-auto px-8">
           <div className="mb-16 text-center">
-            <span className="text-green-600 font-bold">Destinations</span>
-            <h2 className="text-4xl lg:text-5xl font-bold font-heading">
-              The Most Beautiful City in Indonesia
+            <span className="text-green-600 font-bold">
+              Favourite Destinations
+            </span>
+            <h2 className="text-3xl lg:text-5xl font-bold font-heading">
+              Jelajahi Indonesia Bersama Armada Penantian
             </h2>
           </div>
           <div className="flex flex-wrap justify-center -mx-3">
@@ -52,10 +54,11 @@ const Destinations = () => {
                     <div className="absolute inset-0 rounded"></div>
                     <div className="absolute inset-0 p-6 flex flex-col items-start">
                       <span className="mb-auto py-1 px-3 text-sm bg-white rounded-full text-green-600 uppercase font-bold">
-                        Jakarta
+                        Bali
                       </span>
                       <p className="text-xl lg:text-2xl text-white font-bold">
-                        Lorem ipsum dolor sit amet
+                        Pantai Kuta, Tanah Lot, Tanjung Benoa, Bedugul, Pura
+                        Uluwatu, Garuda Wisnu Kencana
                       </p>
                     </div>
                   </div>
@@ -72,10 +75,11 @@ const Destinations = () => {
                     <div className="absolute inset-0  rounded"></div>
                     <div className="absolute inset-0 p-6 flex flex-col items-start">
                       <span className="mb-auto py-1 px-3 text-sm bg-white rounded-full text-green-600 uppercase font-bold">
-                        Surabaya
+                        Jogjakarta
                       </span>
                       <p className="text-xl lg:text-2xl text-white font-bold">
-                        Vestibulum vehicula leo eget libero eleifend.
+                        Malioboro, Borobudur, Prambanan, Pantai Parangtritis,
+                        HeHa Sky View
                       </p>
                     </div>
                   </div>
@@ -92,11 +96,11 @@ const Destinations = () => {
                     <div className="absolute inset-0  rounded "></div>
                     <div className="absolute inset-0 p-6 flex flex-col items-start">
                       <span className="mb-auto py-1 px-3 text-sm bg-white rounded-full text-green-600 uppercase font-bold">
-                        BALI
+                        Malang
                       </span>
 
                       <p className="text-xl lg:text-2xl text-white font-bold">
-                        Kintamani, Ubud, Seminyak, Denpasar
+                        Bromo, Museum Angkut, Jatim Park, Alun-Alun Kota Baru
                       </p>
                     </div>
                   </div>
@@ -115,10 +119,11 @@ const Destinations = () => {
                     <div className="absolute inset-0  rounded"></div>
                     <div className="absolute inset-0 p-6 flex flex-col items-start">
                       <span className="mb-auto py-1 px-3 text-sm bg-white rounded-full text-green-600 uppercase font-bold">
-                        MAGELANG
+                        Bandung
                       </span>
                       <p className="text-xl lg:text-2xl text-white font-bold">
-                        Vestibulum vehicula leo eget libero eleifend.
+                        Farm house Lembang, Kawah Putih, Hutan Pinus, Dusun
+                        Bambu
                       </p>
                     </div>
                   </div>
@@ -135,10 +140,11 @@ const Destinations = () => {
                     <div className="absolute inset-0  rounded"></div>
                     <div className="absolute inset-0 p-6 flex flex-col items-start">
                       <span className="mb-auto py-1 px-3 text-sm bg-white rounded-full text-green-600 uppercase font-bold">
-                        BANDUNG
+                        Lombok
                       </span>
                       <p className="text-xl lg:text-2xl text-white font-bold">
-                        Vestibulum vehicula leo eget libero eleifend.
+                        Pantai Sanggigi, Gili Trawangan, Taman Narmada,
+                        Mandalika, Gunung Rinjani
                       </p>
                     </div>
                   </div>
