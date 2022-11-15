@@ -148,7 +148,7 @@ const Navbar = () => {
               </a>
             </div>
             <p className="my-4 text-xs text-center text-gray-400">
-              <span>© {new Date().getFullYear()} All rights reserved.</span>
+              <span>© {new Date().getFullYear()} Armada Penantian.</span>
             </p>
             <div className="text-center">
               <a className="inline-block px-1" href="#">

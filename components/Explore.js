@@ -1,9 +1,54 @@
 import { Fragment, useState } from "react";
+import Image from "next/image";
 import { Dialog, Transition } from "@headlessui/react";
+import bus1 from "../public/images/bus1.jpg";
+import bus2 from "../public/images/bus2.jpg";
+import bus3 from "../public/images/bus3.jpg";
+import bus4 from "../public/images/bus4.jpg";
+import bus5 from "../public/images/bus5.jpg";
+import bus6 from "../public/images/bus6.jpg";
+import bus7 from "../public/images/bus7.jpg";
+import bus8 from "../public/images/bus8.jpg";
 
 const Explore = () => {
   const [open, setOpen] = useState(false);
   const [showButtonView, setShowButtonView] = useState(false);
+
+  const busesPhoto = [
+    {
+      name: "image1",
+      image: bus1,
+    },
+    {
+      name: "image2",
+      image: bus2,
+    },
+    {
+      name: "image3",
+      image: bus3,
+    },
+    {
+      name: "image4",
+      image: bus4,
+    },
+    {
+      name: "image5",
+      image: bus5,
+    },
+    {
+      name: "image6",
+      image: bus6,
+    },
+    {
+      name: "image7",
+      image: bus7,
+    },
+    {
+      name: "image8",
+      image: bus8,
+    },
+  ];
+
   return (
     <>
       <section id="explore">
@@ -30,11 +75,22 @@ const Explore = () => {
             <div className="mb-8 md:mb-16 max-w-lg mx-auto text-center">
               <span className="text-green-600 font-bold">Explore</span>
               <h2 className="mb-6 text-3xl lg:text-5xl font-bold font-heading">
-                 We offer bus services for travel adventures
+                 Beragam Fasilitas Armada Kami
               </h2>
             </div>
             <div className="flex flex-wrap mb-8 -mx-4">
-              <div className="w-full md:w-1/2 lg:w-1/4 mb-8 px-4">
+              {busesPhoto.map((photo) => (
+                <div className="w-full md:w-1/2 lg:w-1/4 mb-8 px-4">
+                  <a href="#">
+                    <Image
+                      className="mx-auto h-64 w-full rounded object-cover"
+                      src={photo.image}
+                      alt={photo.name}
+                    />
+                  </a>
+                </div>
+              ))}
+              {/* <div className="w-full md:w-1/2 lg:w-1/4 mb-8 px-4">
                 <a href="#">
                   <img
                     className="mx-auto h-64 w-full rounded object-cover"
@@ -126,7 +182,7 @@ const Explore = () => {
                     alt=""
                   />
                 </a>
-              </div>
+              </div> */}
             </div>
             <div className="text-center"></div>
           </div>

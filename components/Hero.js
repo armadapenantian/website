@@ -1,3 +1,6 @@
+import Image from "next/image";
+import heroImage from "../public/images/hero-image.png";
+
 const Hero = () => {
   return (
     <section className="relative pb-56 sm:pb-80">
@@ -21,9 +24,9 @@ const Hero = () => {
           </div>
         </div>
         <div className="absolute inset-x-0 max-w-3xl mx-auto px-8">
-          <img
+          <Image
             className="rounded-3xl md:rounded-6xl md:rounded-br-none"
-            src="/images/hero-image.png"
+            src={heroImage}
             alt=""
           />
           <div className="absolute inset-0 flex items-center justify-center">

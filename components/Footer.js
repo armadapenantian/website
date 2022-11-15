@@ -31,7 +31,7 @@ const Footer = () => {
             <Image src={logo} width={160} alt="" />
           </a>
           <p className="mb-6 text-sm font-semibold text-gray-400">
-            © {new Date().getFullYear()}. All rights reserved.
+            © {new Date().getFullYear()}. Armada Penantian.
           </p>
           <div className="flex space-x-2 lg:space-x-4 justify-center">
             <a href="#">
