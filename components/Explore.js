@@ -80,7 +80,10 @@ const Explore = () => {
             </div>
             <div className="flex flex-wrap mb-8 -mx-4">
               {busesPhoto.map((photo) => (
-                <div className="w-full md:w-1/2 lg:w-1/4 mb-8 px-4">
+                <div
+                  key={photo.name}
+                  className="w-full md:w-1/2 lg:w-1/4 mb-8 px-4"
+                >
                   <a href="#">
                     <Image
                       className="mx-auto h-64 w-full rounded object-cover"
