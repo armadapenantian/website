@@ -1,14 +1,14 @@
 import { Fragment, useState } from "react";
 import Image from "next/image";
 import { Dialog, Transition } from "@headlessui/react";
-import bus1 from "../public/images/bus1.jpg";
-import bus2 from "../public/images/bus2.jpg";
-import bus3 from "../public/images/bus3.jpg";
-import bus4 from "../public/images/bus4.jpg";
-import bus5 from "../public/images/bus5.jpg";
-import bus6 from "../public/images/bus6.jpg";
-import bus7 from "../public/images/bus7.jpg";
-import bus8 from "../public/images/bus8.jpg";
+import bus1 from "../public/images/bus1.png";
+import bus2 from "../public/images/bus2.png";
+import bus3 from "../public/images/bus3.png";
+import bus4 from "../public/images/bus4.png";
+import bus5 from "../public/images/bus5.png";
+import bus6 from "../public/images/bus6.png";
+import bus7 from "../public/images/bus7.png";
+import bus8 from "../public/images/bus8.png";
 
 const Explore = () => {
   const [open, setOpen] = useState(false);
