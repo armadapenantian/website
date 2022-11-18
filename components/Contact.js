@@ -37,25 +37,26 @@ const Contact = () => {
           </div>
           <div className="flex flex-wrap -mx-4">
             <div className="mb-8 lg:mb-0 w-full lg:w-1/3 px-4">
-              <div className="py-12 lg:py-20 rounded bg-white shadow-md text-center">
+              <div className="py-12 px-4 lg:py-20 rounded bg-white shadow-md text-center">
                 <h3 className="mb-8 lg:mb-20 text-3xl font-bold font-heading">
                   Office
                 </h3>
                 <p className="text-gray-400">
-                  Jl. pangeran antasari no 162, kedamaian, Bandar Lampung
+                  Jl. Pangeran Antasari No. 162, Kedamaian, Bandar Lampung
                 </p>
               </div>
             </div>
             <div className="mb-8 lg:mb-0 w-full lg:w-1/3 px-4">
-              <div className="py-12 lg:py-20 rounded bg-white shadow-md text-center">
+              <div className="py-12 px-4 lg:py-20 rounded bg-white shadow-md text-center">
                 <h3 className="mb-8 lg:mb-20 text-3xl font-bold font-heading">
                   Contacts
                 </h3>
-                <p className="text-gray-400">0813 2525 9580 (WA)</p>
+                <p className="text-gray-400">0813 2525 9580</p>
+                <p className="text-gray-400">(WA)</p>
               </div>
             </div>
             <div className="w-full lg:w-1/3 px-4 flex items-stretch">
-              <div className="py-12 lg:py-20 w-full rounded bg-white shadow-md text-center">
+              <div className="py-12 px-4 lg:py-20 w-full rounded bg-white shadow-md text-center">
                 <h3 className="mb-8 lg:mb-20 text-3xl font-bold font-heading">
                   Socials
                 </h3>
