@@ -37,6 +37,7 @@ const Footer = () => {
             <a
               href="https://www.instagram.com/armadapenantian_bus/"
               target="_blank"
+              rel="noreferrer"
             >
               <svg
                 className="w-5 h-5"

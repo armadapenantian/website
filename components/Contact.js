@@ -64,6 +64,7 @@ const Contact = () => {
                   <a
                     href="https://www.instagram.com/armadapenantian_bus/"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <svg
                       className="w-8 h-8"

@@ -18,6 +18,7 @@ const Hero = () => {
                 className="hidden lg:inline-block py-2 px-6 bg-green-500 hover:bg-green-600 text-sm text-white font-bold rounded-l-xl rounded-t-xl transition duration-200"
                 href="https://wa.me/6281325259580"
                 target="_blank"
+                rel="noreferrer"
               >
                 Pesan Sekarang
               </a>
