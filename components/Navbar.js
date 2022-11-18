@@ -85,7 +85,8 @@ const Navbar = () => {
           </ul>
           <a
             className="hidden lg:inline-block py-2 px-6 bg-green-500 hover:bg-green-600 text-sm text-white font-bold rounded-l-xl rounded-t-xl transition duration-200"
-            href="#"
+            href="https://wa.me/6281325259580"
+            target="_blank"
           >
             Pesan Sekarang
           </a>
@@ -142,7 +143,8 @@ const Navbar = () => {
             <div className="pt-6">
               <a
                 className="block px-4 py-3 mb-2 leading-loose text-xs text-center text-white font-semibold bg-green-600 hover:bg-green-700 rounded-l-xl rounded-t-xl"
-                href="#"
+                href="https://wa.me/6281325259580"
+                target="_blank"
               >
                 Pesan Sekarang
               </a>
@@ -151,19 +153,11 @@ const Navbar = () => {
               <span>© {new Date().getFullYear()} Armada Penantian.</span>
             </p>
             <div className="text-center">
-              <a className="inline-block px-1" href="#">
-                <svg
-                  className="w-5 h-5"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 320 512"
-                >
-                  <path
-                    fill="#9c1f28"
-                    d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"
-                  />
-                </svg>
-              </a>
-              <a className="inline-block px-1" href="#">
+              <a
+                className="inline-block px-1"
+                href="https://www.instagram.com/armadapenantian_bus/"
+                target="_blank"
+              >
                 <svg
                   className="w-5 h-5"
                   xmlns="http://www.w3.org/2000/svg"

@@ -84,13 +84,11 @@ const Explore = () => {
                   key={photo.name}
                   className="w-full md:w-1/2 lg:w-1/4 mb-8 px-4"
                 >
-                  <a href="#">
-                    <Image
-                      className="mx-auto h-64 w-full rounded object-cover"
-                      src={photo.image}
-                      alt={photo.name}
-                    />
-                  </a>
+                  <Image
+                    className="mx-auto h-64 w-full rounded object-cover"
+                    src={photo.image}
+                    alt={photo.name}
+                  />
                 </div>
               ))}
               {/* <div className="w-full md:w-1/2 lg:w-1/4 mb-8 px-4">

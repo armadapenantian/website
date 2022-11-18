@@ -1,3 +1,11 @@
+import Image from "next/image";
+import destination1 from "../public/images/destination1.png";
+import destination2 from "../public/images/destination2.png";
+import destination3 from "../public/images/destination3.png";
+import destination4 from "../public/images/destination4.png";
+import destination5 from "../public/images/destination5.png";
+import destination6 from "../public/images/destination6.png";
+
 const Destinations = () => {
   return (
     <section id="destinations">
@@ -33,9 +41,9 @@ const Destinations = () => {
             <div className="flex flex-wrap w-full lg:w-1/2">
               <div className="w-full px-3 mb-5">
                 <div className="relative h-64 mx-auto rounded overflow-hidden">
-                  <img
-                    className="relative h-full w-full rounded object-cover transition ease-in-out duration-300"
-                    src="https://images.pexels.com/photos/5505442/pexels-photo-5505442.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  <Image
+                    className="relative h-full w-full rounded object-cover"
+                    src={destination1}
                     alt=""
                   />
                   <div className="absolute inset-0 rounded"></div>
@@ -52,9 +60,9 @@ const Destinations = () => {
               </div>
               <div className="w-full lg:w-1/2 px-3 mb-5">
                 <div className="relative mx-auto rounded h-128">
-                  <img
+                  <Image
                     className="relative h-full w-full rounded object-cover"
-                    src="https://images.pexels.com/photos/1694621/pexels-photo-1694621.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    src={destination2}
                     alt=""
                   />
                   <div className="absolute inset-0  rounded"></div>
@@ -71,9 +79,9 @@ const Destinations = () => {
               </div>
               <div className="w-full lg:w-1/2 px-3 mb-5">
                 <div className="relative mx-auto rounded h-128">
-                  <img
+                  <Image
                     className="relative h-full w-full rounded object-cover"
-                    src="https://images.pexels.com/photos/6863992/pexels-photo-6863992.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    src={destination3}
                     alt=""
                   />
                   <div className="absolute inset-0  rounded "></div>
@@ -92,9 +100,9 @@ const Destinations = () => {
             <div className="flex flex-wrap w-full lg:w-1/2">
               <div className="w-full lg:w-1/2 px-3 mb-5">
                 <div className="relative mx-auto rounded h-128">
-                  <img
+                  <Image
                     className="relative h-full w-full rounded object-cover"
-                    src="https://images.unsplash.com/photo-1413752362258-7af2a667b590?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1055&amp;q=80"
+                    src={destination4}
                     alt=""
                   />
                   <div className="absolute inset-0  rounded"></div>
@@ -110,9 +118,9 @@ const Destinations = () => {
               </div>
               <div className="w-full lg:w-1/2 px-3 mb-5">
                 <div className="relative mx-auto rounded h-128">
-                  <img
+                  <Image
                     className="relative h-full w-full rounded object-cover"
-                    src="https://images.pexels.com/photos/4741215/pexels-photo-4741215.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    src={destination5}
                     alt=""
                   />
                   <div className="absolute inset-0  rounded"></div>
@@ -129,9 +137,9 @@ const Destinations = () => {
               </div>
               <div className="w-full px-3 mb-5">
                 <div className="relative mx-auto rounded h-64">
-                  <img
+                  <Image
                     className="relative h-full w-full rounded object-cover"
-                    src="https://duniakitanews.com/wp-content/uploads/2022/01/IMG_20220129_213739.jpg"
+                    src={destination6}
                     alt=""
                   />
                   <div className="absolute inset-0  rounded"></div>

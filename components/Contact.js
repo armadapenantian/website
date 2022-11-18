@@ -41,8 +41,9 @@ const Contact = () => {
                 <h3 className="mb-8 lg:mb-20 text-3xl font-bold font-heading">
                   Office
                 </h3>
-                <p className="text-gray-400">359 Hidden</p>
-                <p className="text-gray-400">Valley Road, NY</p>
+                <p className="text-gray-400">
+                  Jl. pangeran antasari no 162, kedamaian, Bandar Lampung
+                </p>
               </div>
             </div>
             <div className="mb-8 lg:mb-0 w-full lg:w-1/3 px-4">
@@ -50,8 +51,7 @@ const Contact = () => {
                 <h3 className="mb-8 lg:mb-20 text-3xl font-bold font-heading">
                   Contacts
                 </h3>
-                <p className="text-gray-400">hello@gmail.com</p>
-                <p className="text-gray-400">+48 698 033 101</p>
+                <p className="text-gray-400">0813 2525 9580 (WA)</p>
               </div>
             </div>
             <div className="w-full lg:w-1/3 px-4 flex items-stretch">
@@ -60,19 +60,10 @@ const Contact = () => {
                   Socials
                 </h3>
                 <div className="flex justify-center">
-                  <a className="mr-3" href="#">
-                    <svg
-                      className="w-8 h-8"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 320 512"
-                    >
-                      <path
-                        fill="#9c1f28"
-                        d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"
-                      />
-                    </svg>
-                  </a>
-                  <a href="#">
+                  <a
+                    href="https://www.instagram.com/armadapenantian_bus/"
+                    target="_blank"
+                  >
                     <svg
                       className="w-8 h-8"
                       xmlns="http://www.w3.org/2000/svg"
